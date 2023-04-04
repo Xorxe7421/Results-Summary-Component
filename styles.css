@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.wrapper {
+    display: flex;
+    margin: auto;
+    width: 35vw;
+    position: relative;
+    top: calc(50vh - 20rem);
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 0 24px 16px #f5f8ff;
+}
+
+.overall-score {
+    width: 17.5vw;
+    height: 30rem;
+    background: linear-gradient(#6743ff, #312cea);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.score-circle {
+    background: linear-gradient(#4b23ca, #4633ee);
+    border-radius: 9999px;
+    width: 12rem;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.percentage {
+    font-size: 64px;
+    padding-top: 3rem;
+    color: #fffeff;
+}
+
+.out-of {
+    padding-bottom: 1rem;
+    color: rgba(188,190,255,0.5);
+}
+
+.great {
+    color: #fffeff;
+    font-size: 32px;
+}
+
+.desciption {
+    text-align: center;
+    width: 15rem;
+    color: rgba(188,190,255,0.5);
+    padding-bottom: 2rem;
+}
+
+.your-result {
+    color: rgba(188,190,255,0.5);
+    padding-top: 1.5rem;
+}
+
+.detailed-score {
+    display: flex;
+    flex-direction: column;
+    width: 17.5vw;
+    justify-content: space-between;
+    padding: 2.5rem;
+}
+
+.row {
+    display: flex;
+    padding: 0.7rem;
+    background-color: red;
+    border-radius: 7px;
+}
+
+.score-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.row-1 {
+    background-color: #fff6f5;
+    color: #ee7c7a;
+}
+
+.row-2 {
+    background-color: #fffbf2;
+    color: #ecb444;
+}
+
+.row-3 {
+    background-color: #f2fafa;
+    color: #49ae95;
+}
+
+.row-4 {
+    background-color: #f3f3fd;
+    color: #313aba;
+}
+
+.summary-text {
+    font-size: 24px;
+    color: #383e51;
+}
+
+.left-text {
+    color: #2e2f40;
+}
+
+.right-text {
+    color: #a8aab8;
+}
+
+button {
+    background-color: #303b59;
+    padding: 0.7rem;
+    border-radius: 20px;
+    color: #ebf2f7;
+    text-decoration: none;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #384464;
+    cursor: pointer;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.flex-right {
+    margin-left: auto;
+}
+
+.gap {
+    padding-left: 1rem;
+}
